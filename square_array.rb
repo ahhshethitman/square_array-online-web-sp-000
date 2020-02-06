@@ -8,9 +8,9 @@ def square_array(array)
 end
 
 def square_array(array)
-  arr = []
+  new_array = []
   array.each do |i| 
-    arr << i ** 2 
-    arr
+    new_array << i ** 2 
+    return new_array
   end
 end
